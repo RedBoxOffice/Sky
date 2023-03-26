@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 71ba63ce78f16de43bed3af342113d13
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngwing.com_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 523
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.5, y: -82.5}
+        - {x: 70.5, y: -86.5}
+        - {x: 63.5, y: -81.5}
+        - {x: 39.5, y: -104.5}
+        - {x: 64.5, y: -73.5}
+        - {x: 94.5, y: -16.5}
+        - {x: 97.5, y: -7.5}
+        - {x: 83.5, y: -20.5}
+        - {x: 70.5, y: -26.5}
+        - {x: 57.5, y: -43.5}
+        - {x: 21.5, y: -94.5}
+        - {x: -1.5, y: -122.5}
+        - {x: -30.5, y: -153.5}
+        - {x: -47.5, y: -169.5}
+        - {x: -67.5, y: -186.5}
+        - {x: -97.5, y: -208.5}
+        - {x: -106.5, y: -212.5}
+        - {x: -118.5, y: -220.5}
+        - {x: -127.5, y: -226.5}
+        - {x: -142.5, y: -224.5}
+        - {x: -158.5, y: -213.5}
+        - {x: -186.5, y: -239.5}
+        - {x: -205.5, y: -257.5}
+        - {x: -216.5, y: -272.5}
+        - {x: -226.5, y: -286.5}
+        - {x: -240.5, y: -302.5}
+        - {x: -245.5, y: -302.5}
+        - {x: -261.5, y: -319.5}
+        - {x: -250.5, y: -301.5}
+        - {x: -229.5, y: -278.5}
+        - {x: -205.5, y: -244.5}
+        - {x: -183.5, y: -219.5}
+        - {x: -173.5, y: -212.5}
+        - {x: -158.5, y: -192.5}
+        - {x: -127.5, y: -136.5}
+        - {x: -77.5, y: -40.5}
+        - {x: -51.5, y: 5.5}
+        - {x: -18.5, y: 53.5}
+        - {x: -7.5, y: 72.5}
+        - {x: -46.5, y: 38.5}
+        - {x: -86.5, y: 10.5}
+        - {x: -110.5, y: -18.5}
+        - {x: -88.5, y: 12.5}
+        - {x: -88.5, y: 27.5}
+        - {x: -82.5, y: 40.5}
+        - {x: -71.5, y: 62.5}
+        - {x: -59.5, y: 79.5}
+        - {x: -47.5, y: 91.5}
+        - {x: -45.5, y: 98.5}
+        - {x: -48.5, y: 103.5}
+        - {x: -48.5, y: 106.5}
+        - {x: -46.5, y: 108.5}
+        - {x: -41.5, y: 109.5}
+        - {x: -29.5, y: 126.5}
+        - {x: -15.5, y: 141.5}
+        - {x: -1.5, y: 153.5}
+        - {x: 9.5, y: 159.5}
+        - {x: 20.5, y: 163.5}
+        - {x: 40.5, y: 163.5}
+        - {x: 48.5, y: 160.5}
+        - {x: 62.5, y: 178.5}
+        - {x: 115.5, y: 239.5}
+        - {x: 157.5, y: 280.5}
+        - {x: 185.5, y: 302.5}
+        - {x: 201.5, y: 312.5}
+        - {x: 219.5, y: 319.5}
+        - {x: 237.5, y: 319.5}
+        - {x: 246.5, y: 316.5}
+        - {x: 252.5, y: 310.5}
+        - {x: 259.5, y: 297.5}
+        - {x: 260.5, y: 286.5}
+        - {x: 259.5, y: 269.5}
+        - {x: 256.5, y: 254.5}
+        - {x: 240.5, y: 212.5}
+        - {x: 213.5, y: 156.5}
+        - {x: 191.5, y: 115.5}
+        - {x: 167.5, y: 75.5}
+        - {x: 172.5, y: 67.5}
+        - {x: 174.5, y: 61.5}
+        - {x: 178.5, y: 48.5}
+        - {x: 176.5, y: 27.5}
+        - {x: 165.5, y: 2.5}
+        - {x: 147.5, y: -24.5}
+        - {x: 144.5, y: -30.5}
+        - {x: 136.5, y: -32.5}
+        - {x: 129.5, y: -35.5}
+        - {x: 106.5, y: -65.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47e6c5c55e31fc479fac4699399e672
+      internalID: 1366386473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f017cf1b565886b45bd07a5ce776478f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngwing.com_0: 1366386473
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
