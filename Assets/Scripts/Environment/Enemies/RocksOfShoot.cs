@@ -2,9 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
 public class RocksOfShoot : Enemy
 {
-    private float _health = 5f;    
+    private float _health = 5f;
+    private float _timeDelay = 3f;
+
+    private void Start()
+    {
+        _rigidbody = GetComponent<Rigidbody>();
+    }
 
     public void TakeDamage(float amount)
     {
@@ -13,7 +20,7 @@ public class RocksOfShoot : Enemy
         if (_health <= 0)
         {
             _rigidbody.useGravity = true;
-            Invoke(nameof(Die), 3f);
+            Invoke(nameof(Die), _timeDelay);
         }
     }
 

@@ -32,7 +32,12 @@ public class Weapon : MonoBehaviour
         {            
             _audioSource.Play();
             RocksOfShoot enemy = hit.transform.GetComponent<RocksOfShoot>();
-            enemy.TakeDamage(_damage);            
+
+            if (enemy != null)
+            {
+                enemy.TakeDamage(_damage);
+            }
+                      
         }
         else
         {

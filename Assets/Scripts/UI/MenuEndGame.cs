@@ -6,6 +6,8 @@ public class MenuEndGame : MonoBehaviour
 {
     [SerializeField] private Instructions _instruction;
 
+    private float _timeDelay = 1.5f;
+
     private void Start()
     {
         _instruction.gameObject.SetActive(false);
@@ -15,7 +17,7 @@ public class MenuEndGame : MonoBehaviour
     {
         if (other.TryGetComponent(out Player player))
         {
-            Invoke(nameof(ShowMenu), 1.5f);
+            Invoke(nameof(ShowMenu), _timeDelay);
         }
     }
 

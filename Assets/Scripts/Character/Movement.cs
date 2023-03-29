@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(HashAnimationsName))]
 public class Movement : MonoBehaviour
 {
     [SerializeField] private Animator _animator;

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Flying))]
 public class ChangeCamera : MonoBehaviour
 {
     [SerializeField] private Camera _mainCamera;

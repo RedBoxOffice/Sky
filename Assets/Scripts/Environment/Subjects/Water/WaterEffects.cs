@@ -10,23 +10,26 @@ public class WaterEffects : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private HashAnimationsName _animationsName;
 
+    private float _timeChangeAnimation = 0.1f;
+    private float _drag = 0.99f;
+    private float _angularDrag = 0.8f;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.TryGetComponent(out Player player))
         {
-            _animator.CrossFade(_animationsName.TreadingWater, 0.1f);
+            _animator.CrossFade(_animationsName.TreadingWater, _timeChangeAnimation);
         }
     }
 
     private void OnTriggerStay(Collider other)
     {
         if (other.TryGetComponent(out Player player) && other.TryGetComponent(out Rigidbody rigidbody))
-        {
-            Debug.Log("Effector");
+        {            
             float difference = (transform.position.y - other.transform.position.y) * _upSpeed;
             rigidbody.AddForce(new Vector3(0f, Mathf.Clamp(Mathf.Abs(Physics.gravity.y) * difference, 0, Mathf.Abs(Physics.gravity.y) * _upSpeedLimit), 0f), ForceMode.Acceleration);
-            rigidbody.drag = 0.99f;
-            rigidbody.angularDrag = 0.8f;           
+            rigidbody.drag = _drag;
+            rigidbody.angularDrag = _angularDrag;           
         }         
     }
 }

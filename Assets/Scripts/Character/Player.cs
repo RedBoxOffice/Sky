@@ -12,6 +12,11 @@ public class Player : MonoBehaviour
     private Movement _movement;    
     private HashAnimationsName _animationsName;
     private CapsuleCollider _capsuleCollider;
+    private float _colliderPositionX = -0.07f;
+    private float _colliderPositionY = 1.19f;
+    private float _colliderPositionZ = 0.9f;
+    private int _axis = 2;
+    private float _timeChangeAnimation = 0.8f;
 
     void Start()
     {        
@@ -34,8 +39,8 @@ public class Player : MonoBehaviour
     {        
         _movement.enabled = false;
         _flying.enabled = true;
-        _capsuleCollider.center = new Vector3(-0.07f, 1.19f, 0.9f);
-        _capsuleCollider.direction = 2;
-        _animator.CrossFade(_animationsName.FlyingHash, 0.8f);
+        _capsuleCollider.center = new Vector3(_colliderPositionX, _colliderPositionY, _colliderPositionZ);
+        _capsuleCollider.direction = _axis;
+        _animator.CrossFade(_animationsName.FlyingHash, _timeChangeAnimation);
     }    
 }
